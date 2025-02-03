@@ -3,155 +3,177 @@
     [
       {
         "character": "木",
-        "on": "",
-        "kun": "",
-        "meaning": ""
+        "on": "ボク/モク",
+        "kun": "き/こ",
+        "meaning": "ざいもく。材料としてのき。",
+        "jouyou": "常用漢字"
       },
       {
         "character": "不",
-        "on": "",
-        "kun": "",
-        "meaning": ""
+        "on": "フ/ブ",
+        "kun": "△ず",
+        "meaning": "打消しの語。否定する意。",
+        "jouyou": "常用漢字"
       }
     ],
     [
       {
         "character": "爪",
-        "on": "",
-        "kun": "",
-        "meaning": ""
+        "on": "△ソウ",
+        "kun": "つめ/つま",
+        "meaning": "つめ。手足のつめ。",
+        "jouyou": "常用漢字"
       },
       {
         "character": "瓜",
-        "on": "",
-        "kun": "",
-        "meaning": ""
+        "on": "カ",
+        "kun": "うり",
+        "meaning": "野菜の名。ウリ科の植物の総称。",
+        "jouyou": "人名用漢字"
       }
     ],
     [
       {
         "character": "似",
-        "on": "",
-        "kun": "",
-        "meaning": ""
+        "on": "ジ/△シ",
+        "kun": "に-る/△ごと-し",
+        "meaning": "にる。にせる。姿や形などが類似している。",
+        "jouyou": "常用漢字"
       },
       {
         "character": "以",
-        "on": "",
-        "kun": "",
-        "meaning": ""
+        "on": "イ",
+        "kun": "△もち-いる/△もっ-て",
+        "meaning": "もちいる。使う。使用する。",
+        "jouyou": "常用漢字"
       }
     ],
     [
       {
         "character": "比",
-        "on": "",
-        "kun": "",
-        "meaning": ""
+        "on": "ヒ/△ビ",
+        "kun": "くら-べる/△ころ/△たぐい/△なら-ぶ",
+        "meaning": "並べて違いを見つける。優劣を考える。",
+        "jouyou": "常用漢字"
       },
       {
         "character": "此",
-        "on": "",
-        "kun": "",
-        "meaning": ""
+        "on": "シ",
+        "kun": "か-く/ここ/こ-の/これ",
+        "meaning": "近くの人や物を指す。",
+        "jouyou": "人名用漢字"
       }
     ],
     [
       {
         "character": "己",
-        "on": "",
-        "kun": "",
-        "meaning": ""
+        "on": "コ/キ",
+        "kun": "おのれ/△つちのと",
+        "meaning": "その人自身。自分自身。十干の六番目。/",
+        "jouyou": "常用漢字"
       },
       {
         "character": "巳",
-        "on": "",
-        "kun": "",
-        "meaning": ""
+        "on": "シ",
+        "kun": "み",
+        "meaning": "十二支の六番目",
+        "jouyou": "人名用漢字"
       }
     ],
     [
       {
         "character": "斥",
-        "on": "",
-        "kun": "",
-        "meaning": ""
+        "on": "セキ",
+        "kun": "△うかが-う/△しりぞ-ける",
+        "meaning": "引き下がらせる。様子をひそかにさぐる。指さす。さし示す。",
+        "jouyou": "常用漢字"
       },
       {
         "character": "斤",
-        "on": "",
-        "kun": "",
-        "meaning": ""
+        "on": "キン",
+        "kun": "△おの",
+        "meaning": "木を切るおの。重さの単位。一斤は十六両。",
+        "jouyou": "常用漢字"
       }
     ],
     [
       {
         "character": "方",
-        "on": "",
-        "kun": "",
-        "meaning": ""
+        "on": "ホウ",
+        "kun": "かた/△かく/△ただ-しい/△まさ-に",
+        "meaning": "方向。行き先。四角。他人を呼ぶ敬称。担当する人。",
+        "jouyou": "常用漢字"
       },
       {
         "character": "万",
-        "on": "",
-        "kun": "",
-        "meaning": ""
+        "on": "マン/バン",
+        "kun": "△よろず",
+        "meaning": "数の単位。千の十倍。",
+        "jouyou": "常用漢字"
       }
     ],
     [
       {
         "character": "夫",
-        "on": "",
-        "kun": "",
-        "meaning": ""
+        "on": "フ/フウ/△ブ",
+        "kun": "おっと/△おとこ/△それ",
+        "meaning": "妻の配偶者。結婚をしている男性。",
+        "jouyou": "常用漢字"
       },
       {
         "character": "天",
-        "on": "",
-        "kun": "",
-        "meaning": ""
+        "on": "テン",
+        "kun": "あま/あめ/△そら",
+        "meaning": "世界をおおうもの。地上を離れた、はるかに遠く高いところ。おおぞら。",
+        "jouyou": "常用漢字"
       }
     ],
     [
       {
         "character": "九",
-        "on": "",
-        "kun": "",
-        "meaning": ""
+        "on": "キュウ/ク",
+        "kun": "ここの/ここの-つ/△あまた",
+        "meaning": "９。数の名。八の次の数。",
+        "jouyou": "常用漢字"
       },
       {
         "character": "凡",
-        "on": "",
-        "kun": "",
-        "meaning": ""
+        "on": "ボン/ハン",
+        "kun": "△およ-そ/△すべ-て/△なみ",
+        "meaning": "普通。ありふれた。すぐれていない。いろいろ。全体。",
+        "jouyou": "常用漢字"
       }
     ],
     [
       {
         "character": "丹",
-        "on": "",
-        "kun": "",
-        "meaning": ""
+        "on": "タン",
+        "kun": "△あか/△に/△まごころ",
+        "meaning": "赤い色。赤い色をした鉱物。",
+        "jouyou": "常用漢字"
       },
       {
         "character": "舟",
-        "on": "",
-        "kun": "",
-        "meaning": ""
+        "on": "シュウ/△シュ",
+        "kun": "ふね/ふな",
+        "meaning": "水上を移動するための道具。",
+        "jouyou": "常用漢字"
       }
     ],
     [
       {
         "character": "去",
-        "on": "",
-        "kun": "",
-        "meaning": ""
+        "on": "キョ/コ",
+        "kun": "さ-る/△のぞ-く/△ゆ-く",
+        "meaning": "その場所から離れる。時間が過ぎさる。",
+        "jouyou": "常用漢字"
       },
       {
         "character": "弁",
         "on": "",
         "kun": "",
-        "meaning": ""
+        "meaning": "",
+        "jouyou": ""
       }
     ],
     [
@@ -159,13 +181,15 @@
         "character": "弟",
         "on": "",
         "kun": "",
-        "meaning": ""
+        "meaning": "",
+        "jouyou": ""
       },
       {
         "character": "弔",
         "on": "",
         "kun": "",
-        "meaning": ""
+        "meaning": "",
+        "jouyou": ""
       }
     ],
     [
@@ -173,13 +197,15 @@
         "character": "三",
         "on": "",
         "kun": "",
-        "meaning": ""
+        "meaning": "",
+        "jouyou": ""
       },
       {
         "character": "二",
         "on": "",
         "kun": "",
-        "meaning": ""
+        "meaning": "",
+        "jouyou": ""
       }
     ],
     [
@@ -187,13 +213,15 @@
         "character": "大",
         "on": "",
         "kun": "",
-        "meaning": ""
+        "meaning": "",
+        "jouyou": ""
       },
       {
         "character": "丈",
         "on": "",
         "kun": "",
-        "meaning": ""
+        "meaning": "",
+        "jouyou": ""
       }
     ],
     [
@@ -201,13 +229,15 @@
         "character": "午",
         "on": "",
         "kun": "",
-        "meaning": ""
+        "meaning": "",
+        "jouyou": ""
       },
       {
         "character": "牛",
         "on": "",
         "kun": "",
-        "meaning": ""
+        "meaning": "",
+        "jouyou": ""
       }
     ],
     [
@@ -215,13 +245,15 @@
         "character": "白",
         "on": "",
         "kun": "",
-        "meaning": ""
+        "meaning": "",
+        "jouyou": ""
       },
       {
         "character": "自",
         "on": "",
         "kun": "",
-        "meaning": ""
+        "meaning": "",
+        "jouyou": ""
       }
     ],
     [
@@ -229,13 +261,15 @@
         "character": "土",
         "on": "",
         "kun": "",
-        "meaning": ""
+        "meaning": "",
+        "jouyou": ""
       },
       {
         "character": "士",
         "on": "",
         "kun": "",
-        "meaning": ""
+        "meaning": "",
+        "jouyou": ""
       }
     ],
     [
@@ -243,13 +277,15 @@
         "character": "内",
         "on": "",
         "kun": "",
-        "meaning": ""
+        "meaning": "",
+        "jouyou": ""
       },
       {
         "character": "肉",
         "on": "",
         "kun": "",
-        "meaning": ""
+        "meaning": "",
+        "jouyou": ""
       }
     ],
     [
@@ -257,13 +293,15 @@
         "character": "月",
         "on": "",
         "kun": "",
-        "meaning": ""
+        "meaning": "",
+        "jouyou": ""
       },
       {
         "character": "用",
         "on": "",
         "kun": "",
-        "meaning": ""
+        "meaning": "",
+        "jouyou": ""
       }
     ],
     [
@@ -271,13 +309,15 @@
         "character": "旦",
         "on": "",
         "kun": "",
-        "meaning": ""
+        "meaning": "",
+        "jouyou": ""
       },
       {
         "character": "且",
         "on": "",
         "kun": "",
-        "meaning": ""
+        "meaning": "",
+        "jouyou": ""
       }
     ],
     [
@@ -285,13 +325,15 @@
         "character": "五",
         "on": "",
         "kun": "",
-        "meaning": ""
+        "meaning": "",
+        "jouyou": ""
       },
       {
         "character": "正",
         "on": "",
         "kun": "",
-        "meaning": ""
+        "meaning": "",
+        "jouyou": ""
       }
     ],
     [
@@ -299,13 +341,15 @@
         "character": "水",
         "on": "",
         "kun": "",
-        "meaning": ""
+        "meaning": "",
+        "jouyou": ""
       },
       {
         "character": "氷",
         "on": "",
         "kun": "",
-        "meaning": ""
+        "meaning": "",
+        "jouyou": ""
       }
     ],
     [
@@ -313,13 +357,15 @@
         "character": "犬",
         "on": "",
         "kun": "",
-        "meaning": ""
+        "meaning": "",
+        "jouyou": ""
       },
       {
         "character": "尤",
         "on": "",
         "kun": "",
-        "meaning": ""
+        "meaning": "",
+        "jouyou": ""
       }
     ],
     [
@@ -327,13 +373,15 @@
         "character": "玉",
         "on": "",
         "kun": "",
-        "meaning": ""
+        "meaning": "",
+        "jouyou": ""
       },
       {
         "character": "王",
         "on": "",
         "kun": "",
-        "meaning": ""
+        "meaning": "",
+        "jouyou": ""
       }
     ],
     [
@@ -341,13 +389,15 @@
         "character": "石",
         "on": "",
         "kun": "",
-        "meaning": ""
+        "meaning": "",
+        "jouyou": ""
       },
       {
         "character": "右",
         "on": "",
         "kun": "",
-        "meaning": ""
+        "meaning": "",
+        "jouyou": ""
       }
     ],
     [
@@ -355,13 +405,15 @@
         "character": "田",
         "on": "",
         "kun": "",
-        "meaning": ""
+        "meaning": "",
+        "jouyou": ""
       },
       {
         "character": "由",
         "on": "",
         "kun": "",
-        "meaning": ""
+        "meaning": "",
+        "jouyou": ""
       }
     ],
     [
@@ -369,13 +421,15 @@
         "character": "古",
         "on": "",
         "kun": "",
-        "meaning": ""
+        "meaning": "",
+        "jouyou": ""
       },
       {
         "character": "吉",
         "on": "",
         "kun": "",
-        "meaning": ""
+        "meaning": "",
+        "jouyou": ""
       }
     ],
     [
@@ -383,13 +437,15 @@
         "character": "川",
         "on": "",
         "kun": "",
-        "meaning": ""
+        "meaning": "",
+        "jouyou": ""
       },
       {
         "character": "州",
         "on": "",
         "kun": "",
-        "meaning": ""
+        "meaning": "",
+        "jouyou": ""
       }
     ],
     [
@@ -397,13 +453,15 @@
         "character": "山",
         "on": "",
         "kun": "",
-        "meaning": ""
+        "meaning": "",
+        "jouyou": ""
       },
       {
         "character": "出",
         "on": "",
         "kun": "",
-        "meaning": ""
+        "meaning": "",
+        "jouyou": ""
       }
     ]
   ],
@@ -413,13 +471,15 @@
         "character": "織",
         "on": "",
         "kun": "",
-        "meaning": ""
+        "meaning": "",
+        "jouyou": ""
       },
       {
         "character": "職",
         "on": "",
         "kun": "",
-        "meaning": ""
+        "meaning": "",
+        "jouyou": ""
       }
     ],
     [
@@ -427,13 +487,15 @@
         "character": "祝",
         "on": "",
         "kun": "",
-        "meaning": ""
+        "meaning": "",
+        "jouyou": ""
       },
       {
         "character": "呪",
         "on": "",
         "kun": "",
-        "meaning": ""
+        "meaning": "",
+        "jouyou": ""
       }
     ],
     [
@@ -441,13 +503,15 @@
         "character": "科",
         "on": "",
         "kun": "",
-        "meaning": ""
+        "meaning": "",
+        "jouyou": ""
       },
       {
         "character": "料",
         "on": "",
         "kun": "",
-        "meaning": ""
+        "meaning": "",
+        "jouyou": ""
       }
     ],
     [
@@ -455,13 +519,15 @@
         "character": "味",
         "on": "",
         "kun": "",
-        "meaning": ""
+        "meaning": "",
+        "jouyou": ""
       },
       {
         "character": "昧",
         "on": "",
         "kun": "",
-        "meaning": ""
+        "meaning": "",
+        "jouyou": ""
       }
     ],
     [
@@ -469,13 +535,15 @@
         "character": "刺",
         "on": "",
         "kun": "",
-        "meaning": ""
+        "meaning": "",
+        "jouyou": ""
       },
       {
         "character": "勅",
         "on": "",
         "kun": "",
-        "meaning": ""
+        "meaning": "",
+        "jouyou": ""
       }
     ],
     [
@@ -483,13 +551,15 @@
         "character": "熊",
         "on": "",
         "kun": "",
-        "meaning": ""
+        "meaning": "",
+        "jouyou": ""
       },
       {
         "character": "態",
         "on": "",
         "kun": "",
-        "meaning": ""
+        "meaning": "",
+        "jouyou": ""
       }
     ],
     [
@@ -497,13 +567,15 @@
         "character": "普",
         "on": "",
         "kun": "",
-        "meaning": ""
+        "meaning": "",
+        "jouyou": ""
       },
       {
         "character": "晋",
         "on": "",
         "kun": "",
-        "meaning": ""
+        "meaning": "",
+        "jouyou": ""
       }
     ],
     [
@@ -511,13 +583,15 @@
         "character": "問",
         "on": "",
         "kun": "",
-        "meaning": ""
+        "meaning": "",
+        "jouyou": ""
       },
       {
         "character": "間",
         "on": "",
         "kun": "",
-        "meaning": ""
+        "meaning": "",
+        "jouyou": ""
       }
     ],
     [
@@ -525,13 +599,15 @@
         "character": "風",
         "on": "",
         "kun": "",
-        "meaning": ""
+        "meaning": "",
+        "jouyou": ""
       },
       {
         "character": "虱",
         "on": "",
         "kun": "",
-        "meaning": ""
+        "meaning": "",
+        "jouyou": ""
       }
     ],
     [
@@ -539,13 +615,15 @@
         "character": "自",
         "on": "",
         "kun": "",
-        "meaning": ""
+        "meaning": "",
+        "jouyou": ""
       },
       {
         "character": "目",
         "on": "",
         "kun": "",
-        "meaning": ""
+        "meaning": "",
+        "jouyou": ""
       }
     ],
     [
@@ -553,13 +631,15 @@
         "character": "鳥",
         "on": "",
         "kun": "",
-        "meaning": ""
+        "meaning": "",
+        "jouyou": ""
       },
       {
         "character": "島",
         "on": "",
         "kun": "",
-        "meaning": ""
+        "meaning": "",
+        "jouyou": ""
       }
     ],
     [
@@ -567,13 +647,15 @@
         "character": "複",
         "on": "",
         "kun": "",
-        "meaning": ""
+        "meaning": "",
+        "jouyou": ""
       },
       {
         "character": "復",
         "on": "",
         "kun": "",
-        "meaning": ""
+        "meaning": "",
+        "jouyou": ""
       }
     ],
     [
@@ -581,13 +663,15 @@
         "character": "延",
         "on": "",
         "kun": "",
-        "meaning": ""
+        "meaning": "",
+        "jouyou": ""
       },
       {
         "character": "廷",
         "on": "",
         "kun": "",
-        "meaning": ""
+        "meaning": "",
+        "jouyou": ""
       }
     ],
     [
@@ -595,13 +679,15 @@
         "character": "考",
         "on": "",
         "kun": "",
-        "meaning": ""
+        "meaning": "",
+        "jouyou": ""
       },
       {
         "character": "孝",
         "on": "",
         "kun": "",
-        "meaning": ""
+        "meaning": "",
+        "jouyou": ""
       }
     ],
     [
@@ -609,7 +695,8 @@
         "character": "遂”, ”逐",
         "on": "",
         "kun": "",
-        "meaning": ""
+        "meaning": "",
+        "jouyou": ""
       }
     ],
     [
@@ -617,13 +704,15 @@
         "character": "​​師",
         "on": "",
         "kun": "",
-        "meaning": ""
+        "meaning": "",
+        "jouyou": ""
       },
       {
         "character": "帥",
         "on": "",
         "kun": "",
-        "meaning": ""
+        "meaning": "",
+        "jouyou": ""
       }
     ],
     [
@@ -631,13 +720,15 @@
         "character": "裁",
         "on": "",
         "kun": "",
-        "meaning": ""
+        "meaning": "",
+        "jouyou": ""
       },
       {
         "character": "栽",
         "on": "",
         "kun": "",
-        "meaning": ""
+        "meaning": "",
+        "jouyou": ""
       }
     ],
     [
@@ -645,13 +736,15 @@
         "character": "省",
         "on": "",
         "kun": "",
-        "meaning": ""
+        "meaning": "",
+        "jouyou": ""
       },
       {
         "character": "雀",
         "on": "",
         "kun": "",
-        "meaning": ""
+        "meaning": "",
+        "jouyou": ""
       }
     ],
     [
@@ -659,13 +752,15 @@
         "character": "銃",
         "on": "",
         "kun": "",
-        "meaning": ""
+        "meaning": "",
+        "jouyou": ""
       },
       {
         "character": "鉄",
         "on": "",
         "kun": "",
-        "meaning": ""
+        "meaning": "",
+        "jouyou": ""
       }
     ],
     [
@@ -673,13 +768,15 @@
         "character": "釘",
         "on": "",
         "kun": "",
-        "meaning": ""
+        "meaning": "",
+        "jouyou": ""
       },
       {
         "character": "針",
         "on": "",
         "kun": "",
-        "meaning": ""
+        "meaning": "",
+        "jouyou": ""
       }
     ],
     [
@@ -687,13 +784,15 @@
         "character": "拾",
         "on": "",
         "kun": "",
-        "meaning": ""
+        "meaning": "",
+        "jouyou": ""
       },
       {
         "character": "捨",
         "on": "",
         "kun": "",
-        "meaning": ""
+        "meaning": "",
+        "jouyou": ""
       }
     ],
     [
@@ -701,13 +800,15 @@
         "character": "候",
         "on": "",
         "kun": "",
-        "meaning": ""
+        "meaning": "",
+        "jouyou": ""
       },
       {
         "character": "侯",
         "on": "",
         "kun": "",
-        "meaning": ""
+        "meaning": "",
+        "jouyou": ""
       }
     ],
     [
@@ -715,13 +816,15 @@
         "character": "政",
         "on": "",
         "kun": "",
-        "meaning": ""
+        "meaning": "",
+        "jouyou": ""
       },
       {
         "character": "攻",
         "on": "",
         "kun": "",
-        "meaning": ""
+        "meaning": "",
+        "jouyou": ""
       }
     ],
     [
@@ -729,13 +832,15 @@
         "character": "住",
         "on": "",
         "kun": "",
-        "meaning": ""
+        "meaning": "",
+        "jouyou": ""
       },
       {
         "character": "往",
         "on": "",
         "kun": "",
-        "meaning": ""
+        "meaning": "",
+        "jouyou": ""
       }
     ],
     [
@@ -743,13 +848,15 @@
         "character": "桃",
         "on": "",
         "kun": "",
-        "meaning": ""
+        "meaning": "",
+        "jouyou": ""
       },
       {
         "character": "挑",
         "on": "",
         "kun": "",
-        "meaning": ""
+        "meaning": "",
+        "jouyou": ""
       }
     ],
     [
@@ -757,13 +864,15 @@
         "character": "幸",
         "on": "",
         "kun": "",
-        "meaning": ""
+        "meaning": "",
+        "jouyou": ""
       },
       {
         "character": "辛",
         "on": "",
         "kun": "",
-        "meaning": ""
+        "meaning": "",
+        "jouyou": ""
       }
     ],
     [
@@ -771,13 +880,15 @@
         "character": "柴",
         "on": "",
         "kun": "",
-        "meaning": ""
+        "meaning": "",
+        "jouyou": ""
       },
       {
         "character": "紫",
         "on": "",
         "kun": "",
-        "meaning": ""
+        "meaning": "",
+        "jouyou": ""
       }
     ],
     [
@@ -785,13 +896,15 @@
         "character": "健",
         "on": "",
         "kun": "",
-        "meaning": ""
+        "meaning": "",
+        "jouyou": ""
       },
       {
         "character": "建",
         "on": "",
         "kun": "",
-        "meaning": ""
+        "meaning": "",
+        "jouyou": ""
       }
     ],
     [
@@ -799,13 +912,15 @@
         "character": "武",
         "on": "",
         "kun": "",
-        "meaning": ""
+        "meaning": "",
+        "jouyou": ""
       },
       {
         "character": "式",
         "on": "",
         "kun": "",
-        "meaning": ""
+        "meaning": "",
+        "jouyou": ""
       }
     ],
     [
@@ -813,13 +928,15 @@
         "character": "栗",
         "on": "",
         "kun": "",
-        "meaning": ""
+        "meaning": "",
+        "jouyou": ""
       },
       {
         "character": "票",
         "on": "",
         "kun": "",
-        "meaning": ""
+        "meaning": "",
+        "jouyou": ""
       }
     ],
     [
@@ -827,13 +944,15 @@
         "character": "麗",
         "on": "",
         "kun": "",
-        "meaning": ""
+        "meaning": "",
+        "jouyou": ""
       },
       {
         "character": "麓",
         "on": "",
         "kun": "",
-        "meaning": ""
+        "meaning": "",
+        "jouyou": ""
       }
     ],
     [
@@ -841,13 +960,15 @@
         "character": "繋",
         "on": "",
         "kun": "",
-        "meaning": ""
+        "meaning": "",
+        "jouyou": ""
       },
       {
         "character": "繁",
         "on": "",
         "kun": "",
-        "meaning": ""
+        "meaning": "",
+        "jouyou": ""
       }
     ]
   ],
@@ -857,13 +978,15 @@
         "character": "網",
         "on": "説明をここに記入",
         "kun": "くん",
-        "meaning": "いみ"
+        "meaning": "いみ",
+        "jouyou": ""
       },
       {
         "character": "綱",
         "on": "説明をここに記入",
         "kun": "くん",
-        "meaning": "いみ"
+        "meaning": "いみ",
+        "jouyou": ""
       }
     ],
     [
@@ -871,13 +994,15 @@
         "character": "凜",
         "on": "",
         "kun": "",
-        "meaning": ""
+        "meaning": "",
+        "jouyou": ""
       },
       {
         "character": "凛",
         "on": "",
         "kun": "",
-        "meaning": ""
+        "meaning": "",
+        "jouyou": ""
       }
     ],
     [
@@ -885,13 +1010,15 @@
         "character": "隹",
         "on": "",
         "kun": "",
-        "meaning": ""
+        "meaning": "",
+        "jouyou": ""
       },
       {
         "character": "佳",
         "on": "",
         "kun": "",
-        "meaning": ""
+        "meaning": "",
+        "jouyou": ""
       }
     ],
     [
@@ -899,13 +1026,15 @@
         "character": "何",
         "on": "",
         "kun": "",
-        "meaning": ""
+        "meaning": "",
+        "jouyou": ""
       },
       {
         "character": "伺",
         "on": "",
         "kun": "",
-        "meaning": ""
+        "meaning": "",
+        "jouyou": ""
       }
     ],
     [
@@ -913,13 +1042,15 @@
         "character": "宇",
         "on": "",
         "kun": "",
-        "meaning": ""
+        "meaning": "",
+        "jouyou": ""
       },
       {
         "character": "字",
         "on": "",
         "kun": "",
-        "meaning": ""
+        "meaning": "",
+        "jouyou": ""
       }
     ],
     [
@@ -927,13 +1058,15 @@
         "character": "官",
         "on": "",
         "kun": "",
-        "meaning": ""
+        "meaning": "",
+        "jouyou": ""
       },
       {
         "character": "宮",
         "on": "",
         "kun": "",
-        "meaning": ""
+        "meaning": "",
+        "jouyou": ""
       }
     ],
     [
@@ -941,13 +1074,15 @@
         "character": "壁",
         "on": "",
         "kun": "",
-        "meaning": ""
+        "meaning": "",
+        "jouyou": ""
       },
       {
         "character": "璧",
         "on": "",
         "kun": "",
-        "meaning": ""
+        "meaning": "",
+        "jouyou": ""
       }
     ],
     [
@@ -955,13 +1090,15 @@
         "character": "薄",
         "on": "",
         "kun": "",
-        "meaning": ""
+        "meaning": "",
+        "jouyou": ""
       },
       {
         "character": "簿",
         "on": "",
         "kun": "",
-        "meaning": ""
+        "meaning": "",
+        "jouyou": ""
       }
     ],
     [
@@ -969,13 +1106,15 @@
         "character": "掘",
         "on": "",
         "kun": "",
-        "meaning": ""
+        "meaning": "",
+        "jouyou": ""
       },
       {
         "character": "堀",
         "on": "",
         "kun": "",
-        "meaning": ""
+        "meaning": "",
+        "jouyou": ""
       }
     ],
     [
@@ -983,13 +1122,15 @@
         "character": "販",
         "on": "",
         "kun": "",
-        "meaning": ""
+        "meaning": "",
+        "jouyou": ""
       },
       {
         "character": "敗",
         "on": "",
         "kun": "",
-        "meaning": ""
+        "meaning": "",
+        "jouyou": ""
       }
     ],
     [
@@ -997,13 +1138,15 @@
         "character": "助",
         "on": "",
         "kun": "",
-        "meaning": ""
+        "meaning": "",
+        "jouyou": ""
       },
       {
         "character": "肋",
         "on": "",
         "kun": "",
-        "meaning": ""
+        "meaning": "",
+        "jouyou": ""
       }
     ],
     [
@@ -1011,13 +1154,15 @@
         "character": "因",
         "on": "",
         "kun": "",
-        "meaning": ""
+        "meaning": "",
+        "jouyou": ""
       },
       {
         "character": "困",
         "on": "",
         "kun": "",
-        "meaning": ""
+        "meaning": "",
+        "jouyou": ""
       }
     ],
     [
@@ -1025,13 +1170,15 @@
         "character": "貝",
         "on": "",
         "kun": "",
-        "meaning": ""
+        "meaning": "",
+        "jouyou": ""
       },
       {
         "character": "見",
         "on": "",
         "kun": "",
-        "meaning": ""
+        "meaning": "",
+        "jouyou": ""
       }
     ],
     [
@@ -1039,13 +1186,15 @@
         "character": "眼",
         "on": "",
         "kun": "",
-        "meaning": ""
+        "meaning": "",
+        "jouyou": ""
       },
       {
         "character": "眠",
         "on": "",
         "kun": "",
-        "meaning": ""
+        "meaning": "",
+        "jouyou": ""
       }
     ],
     [
@@ -1053,13 +1202,15 @@
         "character": "季",
         "on": "",
         "kun": "",
-        "meaning": ""
+        "meaning": "",
+        "jouyou": ""
       },
       {
         "character": "李",
         "on": "",
         "kun": "",
-        "meaning": ""
+        "meaning": "",
+        "jouyou": ""
       }
     ],
     [
@@ -1067,13 +1218,15 @@
         "character": "萩",
         "on": "",
         "kun": "",
-        "meaning": ""
+        "meaning": "",
+        "jouyou": ""
       },
       {
         "character": "荻",
         "on": "",
         "kun": "",
-        "meaning": ""
+        "meaning": "",
+        "jouyou": ""
       }
     ],
     [
@@ -1081,13 +1234,15 @@
         "character": "孟",
         "on": "",
         "kun": "",
-        "meaning": ""
+        "meaning": "",
+        "jouyou": ""
       },
       {
         "character": "盂",
         "on": "",
         "kun": "",
-        "meaning": ""
+        "meaning": "",
+        "jouyou": ""
       }
     ],
     [
@@ -1095,13 +1250,15 @@
         "character": "窪",
         "on": "",
         "kun": "",
-        "meaning": ""
+        "meaning": "",
+        "jouyou": ""
       },
       {
         "character": "窒",
         "on": "",
         "kun": "",
-        "meaning": ""
+        "meaning": "",
+        "jouyou": ""
       }
     ],
     [
@@ -1109,13 +1266,15 @@
         "character": "戉",
         "on": "",
         "kun": "",
-        "meaning": ""
+        "meaning": "",
+        "jouyou": ""
       },
       {
         "character": "戊",
         "on": "",
         "kun": "",
-        "meaning": ""
+        "meaning": "",
+        "jouyou": ""
       }
     ],
     [
@@ -1123,13 +1282,15 @@
         "character": "戌",
         "on": "",
         "kun": "",
-        "meaning": ""
+        "meaning": "",
+        "jouyou": ""
       },
       {
         "character": "戍",
         "on": "",
         "kun": "",
-        "meaning": ""
+        "meaning": "",
+        "jouyou": ""
       }
     ],
     [
@@ -1137,13 +1298,15 @@
         "character": "梁",
         "on": "",
         "kun": "",
-        "meaning": ""
+        "meaning": "",
+        "jouyou": ""
       },
       {
         "character": "粱",
         "on": "",
         "kun": "",
-        "meaning": ""
+        "meaning": "",
+        "jouyou": ""
       }
     ],
     [
@@ -1151,13 +1314,15 @@
         "character": "薜",
         "on": "",
         "kun": "",
-        "meaning": ""
+        "meaning": "",
+        "jouyou": ""
       },
       {
         "character": "薛",
         "on": "",
         "kun": "",
-        "meaning": ""
+        "meaning": "",
+        "jouyou": ""
       }
     ],
     [
@@ -1165,13 +1330,15 @@
         "character": "妻",
         "on": "",
         "kun": "",
-        "meaning": ""
+        "meaning": "",
+        "jouyou": ""
       },
       {
         "character": "麦",
         "on": "",
         "kun": "",
-        "meaning": ""
+        "meaning": "",
+        "jouyou": ""
       }
     ],
     [
@@ -1179,13 +1346,15 @@
         "character": "麈",
         "on": "",
         "kun": "",
-        "meaning": ""
+        "meaning": "",
+        "jouyou": ""
       },
       {
         "character": "塵",
         "on": "",
         "kun": "",
-        "meaning": ""
+        "meaning": "",
+        "jouyou": ""
       }
     ]
   ]
