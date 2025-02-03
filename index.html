@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <!--
+    Copyright 2014-2021 Adobe (http://www.adobe.com/), with Reserved Font Name 'Source'
+    This Font Software is licensed under the SIL Open Font License, Version 1.1 (https://openfontlicense.org/open-font-license-official-text/).
+    This license is copied below, and is also available with a FAQ at: https://openfontlicense.org/
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="./style.css">
+
+  <script type="module">
+    import questions from './questions.json';
+    globalThis.questions = questions;
+  </script>
+
+  <script type="module">
+    import questions from './questions.json' with { type: 'json' };
+    globalThis.questions = questions;
+  </script>
+
+  <script type="module" src="./script.js"></script>
+</head>
+
+<body>
+  <main>
+    <h1>漢字速攻！間違い探し</h1>
+
+    <div id="game">
+      <div id="start-screen" class="screen">
+        <button type="button" id="start-easy">Easy</button>
+        <button type="button" id="start-normal">Normal</button>
+        <button type="button" id="start-hard">Hard</button>
+      </div>
+
+      <div id="question-screen" class="screen">
+        <button id="debug-skip">DEBUG: スキップ</button>
+        <div id="question-number"></div>
+        <div id="time"></div>
+        <pre id="question"></pre>
+      </div>
+
+      <div id="character-detail-screen">
+        <ul id="character-detail"></ul>
+        <button id="next-question">次の問題へ進む</button>
+      </div>
+
+      <div id="result-screen" class="screen">
+        <h2>結果</h2>
+        <dl id="result"></dl>
+        <button id="start-again">もう一度遊ぶ</button>
+      </div>
+    </div>
+  </main>
+</body>
+
+</html>

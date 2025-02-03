@@ -1,0 +1,87 @@
+body {
+  font-family: "Noto Sans JP", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+}
+
+#question button {
+  border: none;
+  background: none;
+  padding: 0;
+  margin: 5px;
+  line-height: 1;
+  font-size: 50px;
+  cursor: pointer;
+}
+
+#question button:hover {
+  background-color: #555;
+  color: #fff;
+}
+
+#start-screen button {
+  color: black;
+  font-size: 30px;
+  padding: 15px 30px;
+  cursor: pointer;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s, transform 0.2s;
+  margin: 20px;
+}
+
+#start-easy {
+  background-color: #cf0;
+}
+#start-easy:hover {
+  background-color: #df3;
+  transform: scale(1.05);
+}
+
+#start-normal {
+  background-color: #fc0;
+}
+#start-normal:hover {
+  background-color: #fd3;
+  transform: scale(1.05);
+}
+
+#start-hard {
+  background-color: #f66;
+}
+#start-hard:hover {
+  background-color: #f77;
+  transform: scale(1.05);
+}
+
+#result {
+  display: grid;
+  grid-template-columns: max-content max-content;
+}
+
+#start-again {
+  background-color: #fc0;
+  color: black;
+  font-size: 30px;
+  padding: 15px 30px;
+  cursor: pointer;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s, transform 0.2s;
+  margin: 20px;
+}
+
+#result-screen {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#start-again:hover {
+  background-color: #fd3;
+  transform: scale(1.05);
+}
