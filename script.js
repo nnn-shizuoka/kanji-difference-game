@@ -135,17 +135,6 @@ function askQuestion(level, currentQuestionNumber, timeMs) {
     timeWrapper.replaceChildren(formatTimeMs(currentTimeMs));
   }, 100);
 
-  document.getElementById('debug-skip').addEventListener('click', () => {
-    clearInterval(intervalId);
-
-    toggleScreen('result');
-
-    replaceDlItems(result, {
-      '難易度': level,
-      'タイム': formatTimeMs(currentTimeMs),
-    });
-  });
-
   for (let rowIndex = 0; rowIndex < ROWS; rowIndex++) {
     for (let columnIndex = 0; columnIndex < COLUMNS; columnIndex++) {
       const button = document.createElement('button');
