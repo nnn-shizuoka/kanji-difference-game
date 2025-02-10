@@ -6,13 +6,27 @@ body {
   text-align: center;
 }
 
+dl {
+  display: grid;
+  grid-template-columns: max-content auto;
+  gap: 5px 8px;
+}
+
+dl dt {
+  grid-column: 1;
+}
+
+dl dd {
+  grid-column: 2;
+  margin: 0;
+}
+
 #question button {
   border: none;
   background: none;
-  padding: 0;
-  margin: 5px;
+  padding: 5px;
   line-height: 1;
-  font-size: 50px;
+  font-size: 40px;
   cursor: pointer;
 }
 
@@ -36,6 +50,7 @@ body {
 #start-easy {
   background-color: #cf0;
 }
+
 #start-easy:hover {
   background-color: #df3;
   transform: scale(1.05);
@@ -44,6 +59,7 @@ body {
 #start-normal {
   background-color: #fc0;
 }
+
 #start-normal:hover {
   background-color: #fd3;
   transform: scale(1.05);
@@ -52,14 +68,10 @@ body {
 #start-hard {
   background-color: #f66;
 }
+
 #start-hard:hover {
   background-color: #f77;
   transform: scale(1.05);
-}
-
-#result {
-  display: grid;
-  grid-template-columns: max-content max-content;
 }
 
 #start-again {
@@ -84,4 +96,47 @@ body {
 #start-again:hover {
   background-color: #fd3;
   transform: scale(1.05);
+}
+
+#character-detail-screen {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#character-detail {
+  display: grid;
+  grid-template-columns: max-content 1fr;
+  gap: 15px;
+  text-align: left;
+  list-style: none;
+  padding: 0;
+  max-width: 700px;
+}
+
+#character-detail li {
+  display: contents;
+  gap: 0 15px;
+}
+
+#character-detail .character-outline {
+  grid-column: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+}
+
+#character-detail .character {
+  font-size: 50px;
+  line-height: 1;
+}
+
+#character-detail .jouyou {
+  font-size: 14px;
+}
+
+#character-detail .data-list {
+  grid-column: 2;
+  margin: 0;
 }
