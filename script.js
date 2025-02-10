@@ -3,7 +3,7 @@ const gameContainer = document.getElementById('game');
 const screens = {
   start: document.getElementById('start-screen'),
   question: document.getElementById('question-screen'),
-  a: document.getElementById('character-detail-screen'),
+  characterDetail: document.getElementById('character-detail-screen'),
   result: document.getElementById('result-screen')
 };
 
@@ -17,12 +17,19 @@ const question = document.getElementById('question');
 const questionNumberWrapper = document.getElementById('question-number');
 const timeWrapper = document.getElementById('time');
 
+const characterDetail = document.getElementById('character-detail');
+const goNextButton = document.getElementById('go-next');
+
 const result = document.getElementById('result');
 const startAgainButton = document.getElementById('start-again');
 
 const QUESTIONS = 3;
 const COLUMNS = 10;
 const ROWS = 10;
+
+const bgmAudio = new Audio('./assets/bgm.mp3');
+bgmAudio.loop = true;
+const successAudio = new Audio('./assets/success.mp3');
 
 /**
  * 0からmaxまでの乱数を生成
@@ -66,6 +73,33 @@ function replaceDlItems(dl, obj) {
   }
 }
 
+function createCharacterDetailLi({ character, on, kun, meaning, jouyou }) {
+  const characterWrapper = document.createElement('div');
+  characterWrapper.classList.add('character');
+  characterWrapper.replaceChildren(character);
+
+  const jouyouWrapper = document.createElement('div');
+  jouyouWrapper.classList.add('jouyou');
+  jouyouWrapper.replaceChildren(jouyou);
+
+  const characterOutline = document.createElement('div');
+  characterOutline.classList.add('character-outline');
+  characterOutline.replaceChildren(characterWrapper, jouyouWrapper);
+
+  const dl = document.createElement('dl');
+  dl.classList.add('data-list');
+  replaceDlItems(dl, {
+    '音:': on,
+    '訓:': kun,
+    '意味:': meaning,
+  });
+
+  const li = document.createElement('li');
+  li.append(characterOutline, dl);
+
+  return li;
+}
+
 function toggleScreen(screenName) {
   for (const [key, screen] of Object.entries(screens)) {
     if (key === screenName) {
@@ -77,6 +111,8 @@ function toggleScreen(screenName) {
 }
 
 function askQuestion(level, currentQuestionNumber, timeMs) {
+  toggleScreen('question');
+
   question.replaceChildren();
 
   const answerColumn = getRandomInt(COLUMNS);
@@ -122,16 +158,34 @@ function askQuestion(level, currentQuestionNumber, timeMs) {
         button.addEventListener('click', function () {
           clearInterval(intervalId);
 
-          if (currentQuestionNumber === QUESTIONS) {
-            toggleScreen('result');
+          toggleScreen('characterDetail');
 
-            replaceDlItems(result, {
-              '難易度': level,
-              'タイム': formatTimeMs(currentTimeMs),
-            });
-          } else {
-            askQuestion(level, currentQuestionNumber + 1, currentTimeMs);
+          successAudio.play();
+
+          characterDetail.replaceChildren(
+            createCharacterDetailLi(majorityCharacterDetail),
+            createCharacterDetailLi(minorityCharacterDetail),
+          );
+
+          function goNext() {
+            goNextButton.removeEventListener('click', goNext);
+
+            if (currentQuestionNumber === QUESTIONS) {
+              toggleScreen('result');
+
+              bgmAudio.pause();
+              bgmAudio.currentTime = 0;
+
+              replaceDlItems(result, {
+                '難易度': level,
+                'タイム': formatTimeMs(currentTimeMs),
+              });
+            } else {
+              askQuestion(level, currentQuestionNumber + 1, currentTimeMs);
+            }
           }
+
+          goNextButton.addEventListener('click', goNext);
         });
       } else {
         char = majorityCharacterDetail.character;
@@ -147,7 +201,7 @@ function askQuestion(level, currentQuestionNumber, timeMs) {
 }
 
 function startGame(level) {
-  toggleScreen('question');
+  bgmAudio.play();
   askQuestion(level, 1, 0);
 }
 
