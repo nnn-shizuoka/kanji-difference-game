@@ -1,0 +1,253 @@
+:root {
+  --color-primary: #5e4b8b;
+  --color-secondary: #da1b61;
+  --color-text-dark: #333;
+  --color-text-light: #fff;
+  --color-mode-easy: #6d9dc5;
+  --color-mode-normal: #ffb84d;
+  --color-mode-hard: #ff6e61;
+  --color-result-easy: hsl(207deg 43% 90%);
+  --color-result-normal: hsl(36deg 100% 90%);
+  --color-result-hard: hsl(5deg 100% 90%);
+}
+
+body {
+  margin: 0;
+
+  font-family: "Noto Sans JP", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  color: var(--color-text-dark);
+
+  background: linear-gradient(#fce8f0, #e5e1ef) fixed;
+}
+
+button {
+  cursor: pointer;
+}
+
+dl {
+  display: grid;
+  grid-template-columns: max-content auto;
+  gap: 0.2em 0.8em;
+  margin: 0;
+}
+
+dl dt {
+  grid-column: 1;
+}
+
+dl dd {
+  grid-column: 2;
+  margin: 0;
+}
+
+h1 {
+  text-align: center;
+}
+
+.game {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.start-button-list {
+  display: flex;
+
+  @media screen and (width < 450px) {
+    flex-direction: column;
+  }
+}
+
+.start-button,
+.go-next-button,
+.start-again-button {
+  margin: 15px;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 10px;
+
+  font-size: 25px;
+  color: var(--color-text-light);
+  text-shadow: 0.5px 0.5px 3px #888;
+
+  background-color: var(--color-primary);
+  box-shadow: 0 4px 6px #0000001a;
+
+  transition: scale 0.2s, filter 0.3s;
+
+  &:hover {
+    scale: 1.05;
+    filter: brightness(1.1);
+  }
+
+  &.start-button-easy {
+    background-color: var(--color-mode-easy);
+  }
+
+  &.start-button-normal {
+    background-color: var(--color-mode-normal);
+  }
+
+  &.start-button-hard {
+    background-color: var(--color-mode-hard);
+  }
+}
+
+.game-header {
+  font-size: 20px;
+}
+
+.question {
+  user-select: none;
+
+  .question-button {
+    --font-size: min(calc(4svmin + 12px), 40px);
+
+    padding: calc(var(--font-size) / 8);
+    border: none;
+    border-radius: calc(var(--font-size) / 12);
+
+    font-size: var(--font-size);
+    line-height: 1;
+
+    background: none;
+
+    &:hover {
+      color: var(--color-text-light);
+      background-color: var(--color-primary);
+    }
+  }
+}
+
+.character-detail-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .character-detail {
+    display: grid;
+    grid-template-columns: max-content 1fr;
+    gap: 15px;
+    align-items: center;
+
+    max-width: 600px;
+    margin: 10px;
+    padding: 0;
+
+    list-style: none;
+
+    li {
+      display: contents;
+      gap: 0 15px;
+    }
+
+    .character-outline {
+      display: flex;
+      grid-column: 1;
+      flex-direction: column;
+      gap: 12px;
+      align-items: center;
+    }
+
+    .character {
+      font-size: 50px;
+      line-height: 1;
+    }
+
+    .category {
+      font-size: 14px;
+    }
+
+    .data-list {
+      grid-column: 2;
+      padding: 10px;
+      box-shadow: 0 2px 4px #0000001a;
+    }
+  }
+}
+
+@keyframes result-appear {
+  from {
+    scale: 1.2;
+    opacity: 0;
+  }
+
+  to {
+    scale: 1;
+    opacity: 1;
+  }
+}
+
+.result-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+
+  .result-title {
+    font-size: 20px;
+  }
+
+  .result-box {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+
+    width: 300px;
+    padding: 20px;
+
+    box-shadow: 0 2px 4px #0000001a;
+
+    animation: 0.3s ease-out result-appear;
+
+    &.result-box-easy {
+      background-color: var(--color-result-easy);
+    }
+
+    &.result-box-normal {
+      background-color: var(--color-result-normal);
+    }
+
+    &.result-box-hard {
+      background-color: var(--color-result-hard);
+    }
+
+    .result-list {
+      font-size: 22px;
+
+      dd {
+        color: var(--color-secondary);
+      }
+    }
+
+    .rank-description {
+      font-size: 18px;
+    }
+  }
+}
+
+.settings {
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+}
+
+.mute-button {
+  width: 40px;
+  height: 40px;
+  border: 2px solid transparent;
+  border-radius: 50%;
+
+  background-color: transparent;
+
+  transition: border-color 0.2s;
+
+  &:hover {
+    border-color: var(--color-secondary);
+  }
+}

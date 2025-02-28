@@ -15,49 +15,18 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap" rel="stylesheet">
 
-  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="https://unpkg.com/sanitize.css">
+  <link rel="stylesheet" href="./src/style.css">
 
-  <script type="module">
-    import questions from './questions.json';
-    globalThis.questions = questions;
-  </script>
-
-  <script type="module">
-    import questions from './questions.json' with { type: 'json' };
-    globalThis.questions = questions;
-  </script>
-
-  <script type="module" src="./script.js"></script>
+  <script type="module" src="./src/index.js"></script>
 </head>
 
 <body>
   <main>
     <h1>漢字速攻！間違い探し</h1>
 
-    <div id="game">
-      <div id="start-screen" class="screen">
-        <button type="button" id="start-easy">Easy</button>
-        <button type="button" id="start-normal">Normal</button>
-        <button type="button" id="start-hard">Hard</button>
-      </div>
-
-      <div id="question-screen" class="screen">
-        <div id="question-number"></div>
-        <div id="time"></div>
-        <pre id="question"></pre>
-      </div>
-
-      <div id="character-detail-screen">
-        <ul id="character-detail"></ul>
-        <button id="go-next">次へ進む</button>
-      </div>
-
-      <div id="result-screen" class="screen">
-        <h2>結果</h2>
-        <dl id="result"></dl>
-        <button id="start-again">もう一度遊ぶ</button>
-      </div>
-    </div>
+    <div id="game" class="game"></div>
+    <div id="settings" class="settings"></div>
   </main>
 </body>
 
